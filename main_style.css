@@ -1,0 +1,90 @@
+body {
+    font-family: candara;
+    margin: 0px;
+    background: url("https://img.freepik.com/premium-vector/modern-blue-splatters-background-premium-vector_628634-1364.jpg?w=996") no-repeat ;
+    background-size: 100% 100%;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+    background-color: #15044F;
+    border-bottom: 6px double #220A74;
+    border-radius: 0px 0px 5px 5px;
+}
+
+header img {
+    height: 75px;
+}
+
+main {
+    position: relative;
+    z-index: 0;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 5px;
+    padding: 15px;
+    background-color: #0D0D0D;
+    border-radius: 10px;
+}
+
+main .vstup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: no-wrap;
+}
+
+main h1 {
+    font-size: 60px;
+    color: #EBD502;
+    text-transform: uppercase;
+}
+
+main p {
+    color: gray;
+    font-size: 25px;
+    text-align: justify;
+    margin-right: 15px;
+}
+
+main .button {
+    font-size: 60px;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    background-color: #EBD502;
+    border-radius: 30px;
+    border: 5px solid #A89800;
+}
+
+footer {
+    position: relative;
+    z-index: 2;
+    top: 100px;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 15px;
+    background-color: #170124;
+    color: purple;
+    font-size: 24px;
+    border-top: 6px groove #490571;
+    border-radius: 5px 5px 0px 0px;
+}
+
+footer .footerimg {
+    height: 30px;
+    width: 25px;
+}
